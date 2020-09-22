@@ -1,48 +1,11 @@
-@import './sass/generales';
-@import './sass/header';
+@import './partials/generales';
+@import './config/mixin';
+@import './config/mixinOperador';
+@import './partials/header';
 
-/*Header*/
+/*@use 'colores'; Trate de usarlo pero me daba error abajo*/
 
-.logo1{
-    float: left;
-    width: 183px;
-}
-
-.menu{
-    float: right;
-    width: 655px;
-	position: relative;
-}
-
-#menu-link-email{
-	font-size: 13px;
-	color: #999898;
-	text-decoration: none;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-#menu-list{
-	list-style: none;
-	margin: 45px 0 0 0;
-	padding: 0;
-}
-#menu-list li{
-	float: left;
-}
-#menu-list li + li{
-	margin-left: 64px;
-}
-
-#menu-list a{
-	font-size: 12px;
-	font-weight: bold;
-	color: #fe9b00;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
+$fontSize: 12px;
 
 /*Imagen Principal*/
 
@@ -56,8 +19,8 @@ div.imagenPrincipal {
 	border-bottom: 2px solid #5d5d5d;
 }
 .mainContent p{
-	color: #5d5d5d;
-	font-size: 12px;
+	color: #5d5d5d; /*Aqui puse colores.$gris y aun asi me dio error*/
+	font-size: $fontSize;
 	line-height: 20px;
 }
 
@@ -69,7 +32,7 @@ div.imagenPrincipal {
 
 .box{
 	width: 280px;
-	float: left;
+	@include float;
 }
 .box img{
 	position: relative;
@@ -92,7 +55,7 @@ div.imagenPrincipal {
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #090909;
-	padding-bottom: 12px;
+	@include padding;
 	padding-left: 20px;
 	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
@@ -105,10 +68,10 @@ div.imagenPrincipal {
 	margin-top: 28px;
 }
 .blog h3{
-	font-size: 12px;
+	font-size: $fontSize;
 	text-transform: uppercase;
 	color: #090909;
-	padding-bottom: 12px;
+	@include padding;
 	padding-left: 20px;
 	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
@@ -117,16 +80,16 @@ div.imagenPrincipal {
 
 .blogUpdates{
 	width: 658px;
-	float: left;
+	@include float;;
 }
 
 .blogUpdates p{
 	color: #5d5d5d;
-	font-size: 12px;
+	font-size: $fontSize;
 	line-height: 20px;
 }
 .media{
-	float: left;
+	@include float;
 	padding-left: 84px;
 }
 
@@ -143,14 +106,14 @@ div.imagenPrincipal {
 }
 .information{
 	width: 480px;
-	float: left;
+	@include float;
 	padding-top: 33px;
 	padding-right: 143px;
 }
 
 .information a{
 	color: #5d5d5d;
-	font-size: 12px;
+	font-size: $fontSize;
 	line-height: 20px;
 	text-decoration: none;
 	border-left: 1px solid #5d5d5d;
@@ -158,7 +121,7 @@ div.imagenPrincipal {
 }
 div.information span{
 	color: #5d5d5d;
-	font-size: 12px;
+	font-size: $fontSize;
 }
 .logo2{
 	float: right;

@@ -67,42 +67,7 @@ div.mainContent h2 {
   text-decoration: none;
   text-transform: uppercase; }
 
-/*Header*/
-.logo1 {
-  float: left;
-  width: 183px; }
-
-.menu {
-  float: right;
-  width: 655px;
-  position: relative; }
-
-#menu-link-email {
-  font-size: 13px;
-  color: #999898;
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  right: 0; }
-
-#menu-list {
-  list-style: none;
-  margin: 45px 0 0 0;
-  padding: 0; }
-
-#menu-list li {
-  float: left; }
-
-#menu-list li + li {
-  margin-left: 64px; }
-
-#menu-list a {
-  font-size: 12px;
-  font-weight: bold;
-  color: #fe9b00;
-  text-decoration: none;
-  text-transform: uppercase; }
-
+/*@use 'colores'; Trate de usarlo pero me daba error abajo*/
 /*Imagen Principal*/
 div.imagenPrincipal {
   margin: 19px 0; }
@@ -114,6 +79,7 @@ div.imagenPrincipal {
 
 .mainContent p {
   color: #5d5d5d;
+  /*Aqui puse colores.$gris y aun asi me dio error*/
   font-size: 12px;
   line-height: 20px; }
 
