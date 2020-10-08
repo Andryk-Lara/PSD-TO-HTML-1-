@@ -11,15 +11,15 @@ div.mainContent h2 {
   text-transform: uppercase;
   color: #090909;
   border-bottom: 6px solid #090909;
-  padding-bottom: 12px;
-  padding-left: 20px;
+  padding-bottom: 1.25%;
+  padding-left: 2%;
   background-image: url(../img/arrow.png);
   background-repeat: no-repeat;
   background-position: 0 7px; }
 
 /* Wrapper */
 .wrapper {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 .clearfix::after {
@@ -28,17 +28,17 @@ div.mainContent h2 {
   display: table; }
 
 .header {
-  padding: 20px 0 15px;
+  padding: 2% 0 1.56%;
   border-bottom: 1px solid #c0c0c0; }
 
 /*Header*/
-.logo1 {
+div.logo1 img {
   float: left;
-  width: 183px; }
+  width: 19.3%; }
 
 .menu {
   float: right;
-  width: 655px;
+  width: 68.2%;
   position: relative; }
 
 #menu-link-email {
@@ -51,14 +51,14 @@ div.mainContent h2 {
 
 #menu-list {
   list-style: none;
-  margin: 45px 0 0 0;
-  padding: 0; }
+  margin: 4.68% 0 0 0;
+  padding: 0%; }
 
 #menu-list li {
   float: left; }
 
 #menu-list li + li {
-  margin-left: 64px; }
+  margin-left: 6.66%; }
 
 #menu-list a {
   font-size: 13px;
@@ -71,6 +71,9 @@ div.mainContent h2 {
 /*Imagen Principal*/
 div.imagenPrincipal {
   margin: 19px 0; }
+
+div.imagenPrincipal img {
+  width: 100%; }
 
 /*Main Content*/
 .mainContent {
@@ -89,7 +92,7 @@ div.imagenPrincipal {
   padding: 0; }
 
 .box {
-  width: 280px;
+  width: 29.16%;
   float: left; }
 
 .box img {
@@ -98,28 +101,31 @@ div.imagenPrincipal {
 
 .box a {
   color: #fe9b00;
-  margin-right: 5px;
+  margin-right: 0.5%;
   text-decoration: none; }
 
 .box + .box {
-  margin-left: 60px; }
+  margin-left: 6.25%; }
 
 .portfolio {
   border-bottom: 2px solid #5d5d5d;
   padding-bottom: 41px; }
+
+div.trabajos img {
+  width: 22.39%; }
 
 .portfolio h2 {
   font-size: 18px;
   text-transform: uppercase;
   color: #090909;
   padding-bottom: 12px;
-  padding-left: 20px;
+  padding-left: 2%;
   background-image: url(../img/arrow.png);
   background-repeat: no-repeat;
   background-position: 0 5px; }
 
 .portfolio a {
-  margin-right: 20px; }
+  margin-right: 2%; }
 
 .blog {
   margin-top: 28px; }
@@ -129,13 +135,13 @@ div.imagenPrincipal {
   text-transform: uppercase;
   color: #090909;
   padding-bottom: 12px;
-  padding-left: 20px;
+  padding-left: 2%;
   background-image: url(../img/arrow.png);
   background-repeat: no-repeat;
   background-position: 0 3px; }
 
 .blogUpdates {
-  width: 658px;
+  width: 68.54%;
   float: left; }
 
 .blogUpdates p {
@@ -145,36 +151,39 @@ div.imagenPrincipal {
 
 .media {
   float: left;
-  padding-left: 84px; }
+  padding-left: 8.75%; }
 
 .media a {
-  margin-left: 10px; }
+  margin-left: 1%; }
 
 .footer {
+  max-width: 960px;
   height: 101px;
-  background-color: #e2e2e2; }
+  background-color: #e2e2e2;
+  margin: 0 auto; }
 
 .container-footer {
-  width: 960px;
+  width: 100%;
   margin: 0 auto; }
 
 .information {
-  width: 480px;
+  width: 50%;
   float: left;
   padding-top: 33px;
-  padding-right: 143px; }
+  padding-right: 14.89%; }
 
 .information a {
   color: #5d5d5d;
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
-  border-left: 1px solid #5d5d5d;
-  padding: 0 7px 0 7px; }
+  border-left: 0.1% solid #5d5d5d;
+  padding: 0 0.7% 0 0.7%; }
 
 div.information span {
   color: #5d5d5d;
   font-size: 12px; }
 
-.logo2 {
-  float: right; }
+div.logo2 img {
+  float: right;
+  width: 19.3%; }

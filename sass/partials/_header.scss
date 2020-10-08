@@ -2,14 +2,16 @@
 
 
 
-.logo1{
-    float: left;
-    width: 183px;
+div.logo1{
+    img{
+        float: left;
+        width: 19.3%;
+    }
 }
 
 .menu{
     float: right;
-    width: 655px;
+    width: 68.2%;
 	position: relative;
 }
 
@@ -24,8 +26,8 @@
 
 #menu-list{
 	list-style: none;
-	margin: 45px 0 0 0;
-	padding: 0;
+	margin: 4.68% 0 0 0;
+	padding: 0%;
 }
 #menu-list{
     li{
@@ -34,7 +36,7 @@
 } 
 #menu-list{
     li + li{
-        margin-left: 64px;
+        margin-left: 6.66%;
     }
 } 
 

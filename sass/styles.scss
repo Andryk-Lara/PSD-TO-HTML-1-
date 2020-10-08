@@ -9,10 +9,14 @@ $fontSize: 12px;
 
 /*Imagen Principal*/
 
-div.imagenPrincipal {
+div.imagenPrincipal{
     margin: 19px 0;
 }
-
+div.imagenPrincipal{
+	img{
+		width: 100%;
+	}
+}
 /*Main Content*/
 .mainContent{
 	padding-bottom: 39px;
@@ -31,7 +35,7 @@ div.imagenPrincipal {
 }
 
 .box{
-	width: 280px;
+	width: 29.16%;
 	@include float;
 }
 .box img{
@@ -41,28 +45,33 @@ div.imagenPrincipal {
 }
 .box a{
     color: #fe9b00;
-	margin-right: 5px;
+	margin-right: 0.5%;
     text-decoration: none;
 }
 .box + .box{
-	margin-left: 60px;
+	margin-left: 6.25%;
 }
 .portfolio{
 	border-bottom: 2px solid #5d5d5d;
 	padding-bottom: 41px;
+}
+div.trabajos{
+	img{
+		width: 22.39%;
+	}
 }
 .portfolio h2{
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #090909;
 	@include padding;
-	padding-left: 20px;
+	padding-left: 2%;
 	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
 	background-position: 0 5px;	
 }
 .portfolio a{
-	margin-right: 20px;
+	margin-right: 2%;
 }
 .blog{
 	margin-top: 28px;
@@ -72,14 +81,14 @@ div.imagenPrincipal {
 	text-transform: uppercase;
 	color: #090909;
 	@include padding;
-	padding-left: 20px;
+	padding-left: 2%;
 	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
 	background-position: 0 3px;	
 }
 
 .blogUpdates{
-	width: 658px;
+	width: 68.54%;
 	@include float;;
 }
 
@@ -90,25 +99,27 @@ div.imagenPrincipal {
 }
 .media{
 	@include float;
-	padding-left: 84px;
+	padding-left: 8.75%;
 }
 
 .media a{
-	margin-left: 10px;
+	margin-left: 1%;
 }
 .footer{
+	max-width: 960px;
 	height: 101px;
 	background-color: #e2e2e2;
+	margin: 0 auto;
 }
 .container-footer{
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 }
 .information{
-	width: 480px;
+	width: 50%;
 	@include float;
 	padding-top: 33px;
-	padding-right: 143px;
+	padding-right: 14.89%;
 }
 
 .information a{
@@ -116,13 +127,17 @@ div.imagenPrincipal {
 	font-size: $fontSize;
 	line-height: 20px;
 	text-decoration: none;
-	border-left: 1px solid #5d5d5d;
-	padding: 0 7px 0 7px;
+	border-left: 0.1% solid #5d5d5d;
+	padding: 0 0.7% 0 0.7%;
 }
 div.information span{
 	color: #5d5d5d;
 	font-size: $fontSize;
 }
-.logo2{
-	float: right;
+div.logo2{
+	img{
+		float: right;
+		width: 19.3%;
+	}
+	
 }
