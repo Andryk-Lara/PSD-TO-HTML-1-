@@ -1,0 +1,120 @@
+@media (max-width: 800px){
+    /*Header*/
+
+    div.logo1{
+        img{
+            padding-left: 36%;
+            width: 30%;
+        }
+    }
+    #menu-link-email{
+        font-size: 13px;
+        color: #999898;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    #menu-list{
+        display: none;
+        list-style: none;
+        margin: 4.68% 0 0 0;
+        padding: 0%;
+    }
+
+    /*Main Content*/
+
+    .mainContent{
+        padding-bottom: 39px;
+        border-bottom: 2px solid #5d5d5d;
+    }
+    .mainContent p{
+        padding-left: 2%;
+        color: #5d5d5d; /*Aqui puse colores.$gris y aun asi me dio error*/
+        font-size: $fontSize;
+        line-height: 20px;
+    }
+    
+    #box-benefits-list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box{
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 0;
+        margin-left: 0;
+        float: left;
+    }
+    /*Portfolio*/
+    div.trabajos{
+        img{
+            padding-left: 5%;
+            width: 90%;
+        }
+    }
+    .portfolio h2{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #090909;
+        @include padding;
+        padding-left: 2%;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        background-position: 0 5px;	
+    }
+    .portfolio {
+        a{
+            margin-bottom: 50px;
+        }
+    }
+
+    /*Blog*/
+
+    .blog{
+        margin-top: 28px;
+    }
+    .blog h3{
+        font-size: $fontSize;
+        text-transform: uppercase;
+        color: #090909;
+        @include padding;
+        padding-left: 4%;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        background-position: 0 3px;	
+    }
+    
+    .blogUpdates{
+        padding-left: 2%;
+        width: 100%;
+        @include float;;
+    }
+    
+    .blogUpdates p{
+        color: #5d5d5d;
+        font-size: $fontSize;
+        line-height: 20px;
+    }
+    .media {
+        padding-left: 0;
+    }
+    .subtitleInformation{
+        width: 100%;
+        margin-bottom: 15px;
+        a{
+            margin-left: 25%;
+        }
+    }
+    div.logo2{
+        img{
+            display: none;
+        }
+        
+    }
+    div.information{
+        padding-left: 5%;
+    }
+}
