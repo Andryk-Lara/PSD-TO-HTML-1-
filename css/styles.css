@@ -51,7 +51,7 @@ div.logo1 img {
 
 #menu-list {
   list-style: none;
-  margin: 4.68% 0 0 0;
+  margin: 4.58% 0 0 0;
   padding: 0%; }
 
 #menu-list li {
@@ -188,6 +188,23 @@ div.logo2 img {
   float: right;
   width: 19.3%; }
 
+@media (max-width: 1024px) {
+  div.logo1 img {
+    padding-left: 36%;
+    width: 30%; }
+  .menu {
+    right: 11%; }
+  #menu-list li + li {
+    margin-left: 5.66%; }
+  #menu-link-email {
+    display: none; }
+  /*Portfolio*/
+  div.trabajos img {
+    width: 43%;
+    padding-left: 4%; }
+  .portfolio a {
+    margin-right: 2%; } }
+
 @media (max-width: 800px) {
   /*Header*/
   div.logo1 img {
@@ -205,6 +222,8 @@ div.logo2 img {
     list-style: none;
     margin: 4.68% 0 0 0;
     padding: 0%; }
+  #menu-link-email {
+    display: none; }
   /*Main Content*/
   .mainContent {
     padding-bottom: 39px;

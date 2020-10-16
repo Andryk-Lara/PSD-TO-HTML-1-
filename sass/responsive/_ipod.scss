@@ -1,0 +1,29 @@
+@media (max-width: 1024px){
+    div.logo1{
+        img{
+            padding-left: 36%;
+            width: 30%;
+        }
+    }
+    .menu{
+        right: 11%;
+    }
+    #menu-list{
+        li + li{
+            margin-left: 5.66%;
+        }
+    }
+    #menu-link-email{
+        display: none;
+    }
+    /*Portfolio*/
+    div.trabajos{
+        img{
+            width: 43%;
+            padding-left: 4%;
+        }
+    }
+    .portfolio a{
+        margin-right: 2% ;
+    }
+}
