@@ -1,5 +1,5 @@
 html {
-  border-top: 17px solid black; }
+  border-top: 1.063rem solid black; }
 
 /* Modificaciones Generales */
 body {
@@ -7,15 +7,15 @@ body {
   margin: 0; }
 
 div.mainContent h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
   color: #090909;
-  border-bottom: 6px solid #090909;
+  border-bottom: 0.375rem solid #090909;
   padding-bottom: 1.25%;
   padding-left: 2%;
   background-image: url(../img/arrow.png);
   background-repeat: no-repeat;
-  background-position: 0 7px; }
+  background-position: 0 0.438rem; }
 
 /* Wrapper */
 .wrapper {
@@ -29,7 +29,7 @@ div.mainContent h2 {
 
 .header {
   padding: 2% 0 1.56%;
-  border-bottom: 1px solid #c0c0c0; }
+  border-bottom: 0.063rem solid #c0c0c0; }
 
 /*Header*/
 div.logo1 img {
@@ -42,7 +42,7 @@ div.logo1 img {
   position: relative; }
 
 #menu-link-email {
-  font-size: 13px;
+  font-size: 0.813rem;
   color: #999898;
   text-decoration: none;
   position: absolute;
@@ -61,7 +61,7 @@ div.logo1 img {
   margin-left: 6.66%; }
 
 #menu-list a {
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: bold;
   color: #fe9b00;
   text-decoration: none;
@@ -83,7 +83,7 @@ div.imagenPrincipal img {
 .mainContent p {
   color: #5d5d5d;
   /*Aqui puse colores.$gris y aun asi me dio error*/
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 20px; }
 
 #box-benefits-list {
@@ -115,7 +115,7 @@ div.trabajos img {
   width: 22.39%; }
 
 .portfolio h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
   color: #090909;
   padding-bottom: 12px;
@@ -131,7 +131,7 @@ div.trabajos img {
   margin-top: 28px; }
 
 .blog h3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-transform: uppercase;
   color: #090909;
   padding-bottom: 12px;
@@ -146,7 +146,7 @@ div.trabajos img {
 
 .blogUpdates p {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 20px; }
 
 .media {
@@ -174,7 +174,7 @@ div.trabajos img {
 
 .information a {
   color: #5d5d5d;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 20px;
   text-decoration: none;
   border-left: 0.1% solid #5d5d5d;
@@ -182,7 +182,7 @@ div.trabajos img {
 
 div.information span {
   color: #5d5d5d;
-  font-size: 12px; }
+  font-size: 0.75rem; }
 
 div.logo2 img {
   float: right;
@@ -211,7 +211,7 @@ div.logo2 img {
     padding-left: 36%;
     width: 30%; }
   #menu-link-email {
-    font-size: 13px;
+    font-size: 0.813rem;
     color: #999898;
     text-decoration: none;
     position: absolute;
@@ -232,7 +232,7 @@ div.logo2 img {
     padding-left: 2%;
     color: #5d5d5d;
     /*Aqui puse colores.$gris y aun asi me dio error*/
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 20px; }
   #box-benefits-list {
     list-style: none;
@@ -249,7 +249,7 @@ div.logo2 img {
     padding-left: 5%;
     width: 90%; }
   .portfolio h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     color: #090909;
     padding-bottom: 12px;
@@ -263,7 +263,7 @@ div.logo2 img {
   .blog {
     margin-top: 28px; }
   .blog h3 {
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
     color: #090909;
     padding-bottom: 12px;
@@ -277,7 +277,7 @@ div.logo2 img {
     float: left; }
   .blogUpdates p {
     color: #5d5d5d;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 20px; }
   .media {
     padding-left: 0; }
